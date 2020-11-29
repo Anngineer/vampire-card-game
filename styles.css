@@ -3,4 +3,16 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 10px;
+}
+
+.game-card {
+  border: 1px solid #333;
 }
