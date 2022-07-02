@@ -4,8 +4,11 @@ html {
   margin: 0;
   box-sizing: border-box;
   padding: 10px 20px;
+  background-color: rgb(16, 16, 24);
 }
-
+h1 {
+  color: rgb(231, 232, 236);
+}
 .game-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -18,12 +21,13 @@ html {
 
 .game-card {
   border: 1px solid #333;
+  background-color: rgb(238, 238, 238);
   border-radius: 6px;
   padding: 10px;
 }
 
 @media (max-width: 600px) {
-  .game-grid{
+  .game-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, auto);
   }
@@ -31,4 +35,5 @@ html {
 
 footer {
   margin-top: 20px;
+  color: rgb(231, 232, 236);
 }
